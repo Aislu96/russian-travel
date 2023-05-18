@@ -1,0 +1,7 @@
+.header__lang-link_active:hover {
+    opacity: .5;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
