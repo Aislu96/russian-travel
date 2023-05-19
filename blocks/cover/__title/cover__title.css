@@ -5,20 +5,24 @@
     font-weight: 900;
     color: #ffffff;
     text-align: center;
+    max-width: 560px;
 }
 
-@media (min-width: 426px) and (max-width: 560px) {
+@media screen and (max-width: 767px) {
     .cover__title {
-        font-size: 32px;
-        line-height: 36px;
+        max-width: 80%;
+        font-size: 9.4vw;
+        line-height: 1.1;
     }
 }
 
+
 @media (max-width: 425px) {
     .cover__title {
-        width: 250px;
-        margin: 0 0 16px;
+        max-width: 288px;
+        width: 100%;
         font-size: 32px;
-        line-height: 36px;
+        line-height: 35px;
+        margin-bottom: 16px;
     }
 }
