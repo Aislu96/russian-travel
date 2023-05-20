@@ -14,22 +14,18 @@
 
 @media screen and (max-width: 1279px) {
     .footer {
-        margin-left: 48px;
-        margin-right: 48px;
+        max-width: 90.625%;
     }
 }
-
 @media screen and (max-width: 768px) {
     .footer {
-        margin-left: 24px;
-        margin-right: 24px;
+        max-width: 93.75%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        margin-left: 16px;
-        margin-right: 16px;
+        max-width: 90%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
