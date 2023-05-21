@@ -6,6 +6,7 @@
     line-height: 29.34px;
     color: #FFFFFF;
     margin: 0 0 25px 0;
+    max-width: 484px;
 }
 
 .place__paragraph:last-of-type {
@@ -16,8 +17,6 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26.08px;
-        margin-left: 24px;
-        margin-right: 24px;
     }
 }
 
@@ -28,10 +27,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
     .place__paragraph {
-        max-width: 90%;
-        margin-left: 16px;
+        max-width: calc(100% - 2*16px);
         margin-right: 16px;
+        margin-left: 16px;
     }
 }
