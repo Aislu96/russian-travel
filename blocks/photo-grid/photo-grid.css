@@ -25,11 +25,11 @@
     }
 }
 
-@media screen and (max-width: 378px) {
+@media screen and (max-width: 400px) {
     .photo-grid {
         margin-bottom: 64px;
         width: calc(100% - 2*16px);
-        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
         gap: 12px;
     }
 }
